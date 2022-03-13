@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>BS 5 List Groups </title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <script defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>BS 5 List Groups </h1>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+        <h3> Basic List Groups with active and
+            disable state</h3>
+        <ul class="list-group">
+            <li class="list-group-item">First item
+            </li>
+            <li class="list-group-item active">
+                Second item</li>
+            <li class="list-group-item disabled">
+                Third item</li>
+        </ul>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+        <h3>List Group With Linked Items</h3>
+        <p>
+            To create a list group with linked
+            items, use
+            <pre>&lt;div&gt;</pre> instead of
+            <pre>&lt;ul&gt;</pre>and
+            <pre>&lt;a&gt;</pre> instead of
+            <pre>&lt;li&gt;</pre> Optionally, add
+            the .list-group-item-action class if
+            you want a grey background color on
+            hover:
+        </p>
+        <div class="list-group">
+            <a href="#"
+                class="list-group-item list-group-item-action active">First
+                item</a>
+            <a href="#"
+                class="list-group-item list-group-item-action">First
+                item</a>
+            <a href="#"
+                class="list-group-item list-group-item-action">First
+                item</a>
+            <a href="#"
+                class="list-group-item list-group-item-action">First
+                item</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+        <h3>Flush / Remove Borders</h3>
+        <p>
+            Use the <b>.list-group-flush</b> class to remove some borders and rounded corners:
+        </p>
+        <div class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-action active">First
+                item</li>
+            <li class="list-group-item list-group-item-action">First
+                item</li>
+            <li class="list-group-item list-group-item-action">First
+                item</li>
+            <li class="list-group-item list-group-item-action">First
+                item</li>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+
+        <h3>Numbered List Groups</h3>
+        <p>
+            Use the <b>.list-group-numbered</b> class to to create list items with numbers in front of them:
+        </p>
+        <div class="list-group list-group-numbered">
+            <li class="list-group-item active">First item</li>
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">First item</li>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <h3> Horizontal List Groups</h3>
+        <p>
+            Use the <b>.list-group-horizontal</b> class to display horizontally instead of vertically (side by side instead of on top of each other)
+        </p>
+        <div class="list-group list-group-numbered list-group-horizontal">
+            <li class="list-group-item active">First item</li>
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">First item</li>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <h3> Contextual Classes</h3>
+        <div class="list-group">
+            <li class="list-group-item list-group-item-danger">First item</li>
+            <li class="list-group-item list-group-item-info">First item</li>
+            <li class="list-group-item list-group-item-light">First item</li>
+            <li class="list-group-item list-group-item-primary">First item</li>
+            <li class="list-group-item list-group-item-secondary">First item</li>
+            <li class="list-group-item list-group-item-warning">First item</li>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <h3> Contextual Classes with Links</h3>
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">First item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-info">First item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">First item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">First item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">First item</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">First item</a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <h3> List Group with Badges </h3>
+        <div class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-content-center">First item <span class="badge bg-primary rounded-pill">55</span></li>
+            <li class="list-group-item d-flex justify-content-between align-content-center">First item <span class="badge bg-primary rounded-pill">55</span></li>
+            <li class="list-group-item d-flex justify-content-between align-content-center">First item <span class="badge bg-primary rounded-pill">55</span></li>
+            <li class="list-group-item d-flex justify-content-between align-content-center">First item <span class="badge bg-primary rounded-pill">55</span></li>
+            <li class="list-group-item d-flex justify-content-between align-content-center">First item <span class="badge bg-primary rounded-pill">55</span></li>
+            <li class="list-group-item d-flex justify-content-between align-content-center">First item <span class="badge bg-primary rounded-pill">55</span></li>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
